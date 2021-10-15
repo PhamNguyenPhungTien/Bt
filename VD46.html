@@ -1,0 +1,57 @@
+<html><head>
+<title>Ví dụ về CSS (dropdown) </title>
+<h1 align="center">Ví dụ về CSS (dropdown)</h1>
+</head>
+	<style>
+.dropbtn {
+	background-color: #4caf50;
+	color: white;
+	padding: 16px;
+	font-sze: 16px;
+	border: none;
+	cursor: pointer;
+}
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+.dropdown-content {
+	display: none;
+	position: absolatute;
+	background-color: #f9f9f9;
+	min-width: 160px;
+	box-shadow: 0px 9px 16px 0px rgba(0,0,0,0.2);
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown:hover .dropdown-content {
+	display: block;
+}
+.dropdown:hover .dropbtn {
+	background-color: #3e8e41;
+}
+</style></head>
+<body>
+	<h2>Dropdown Menu</h2>
+	<p>Move the mouse over the button to open the dropdown menu.</p>
+	<div class="dropdown">
+		<button class="dropbtn">Dropdown</button>
+	<div class="dropdown-content">
+		<a href="https://www.geeksforgeeks.org/motorola-680x0-and-coldfire-processor-families/">Link 1</a>
+		<a href="https://www.cl.cam.ac.uk/teaching/2006/CompArch/documents/all/trends/cpu_history.html">Link 2</a>
+		<a href="https://www.nytimes.com/1984/06/29/business/motorola-s-powerful-new-chip.html">Link 3</a>
+	</div>
+</div>
+<p><strong>Note:</strong> We use herf="#" for test links. In a real web site this would be URLs. </p>
+</body>
+<p align="center"> 
+	<a href="https://tienb1906006.github.io/Bt/File Tổng Hợp BT">Quay lại trang chủ</a>
+</p>
+</html>
+
